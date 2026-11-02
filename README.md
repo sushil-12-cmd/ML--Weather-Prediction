@@ -1,3 +1,23 @@
+# Implementation of Random Forest Algorithm for Weather Prediction
+## AIM:
+To write a program to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data using Random Forest Algorithm.
+
+## Problem Statement and Dataset
+
+
+
+## Equipments Required:
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Jupyter notebook
+
+## Algorithm
+1. Load the datasets
+2. Preprocess the data
+3. Train the Random Forest Regressor
+4. predict and Evaluate the results
+
+## Program:
+```
 /*
 Program to implement the Random Forest Algorithm to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data.
 Developed by: Dharun Dhanraj R
@@ -115,3 +135,14 @@ print("\n--- NEXT STEP PREDICTIONS (Using Latest Data) ---")
 for target in targets:
     pred_val = models[target].predict(latest_data)[0]
     print(f"Predicted {target_meta[target][0]}: {pred_val:.2f} {target_meta[target][1]}")
+```
+## Output:
+
+<img width="1453" height="645" alt="image" src="https://github.com/user-attachments/assets/06b93045-1acb-4dbf-a30f-62fe6e088121" />
+
+<img width="1446" height="529" alt="image" src="https://github.com/user-attachments/assets/8cf41c10-e2ac-4857-9b67-21379da6d964" />
+
+<img width="1449" height="647" alt="image" src="https://github.com/user-attachments/assets/b044727c-8d09-41c3-9e2d-292d34b0c086" />
+
+## Result:
+Thus,the program to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data using Random Forest Algorithm is verified.
